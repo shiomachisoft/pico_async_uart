@@ -7,8 +7,7 @@ When used in a multi-core environment, exclusive processing is performed within 
     
 **1.How to use**   
 Please set the following user-dependent settings in AsyncUart.h  
-![image](https://github.com/user-attachments/assets/9c0a6ed3-82e3-4d97-b39c-9df554639262)  
-
+![image](https://github.com/user-attachments/assets/14ce3c06-a9e2-4c53-b987-751fa1164aad)  
 
 **2.In your app, do the following**  
 (See sample_main.c)    
