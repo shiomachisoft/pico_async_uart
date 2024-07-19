@@ -15,8 +15,8 @@
 
 // [define]
 // [UART Config]
-#define ASUART_ID  uart0      // UARTのID: uart0 or uart1
-#define ASUART_IRQ UART0_IRQ  // UARTのIRQ: UART0_IRQ or UART1_IRQ
+#define ASUART_ID  uart0      // UART ID: uart0 or uart1
+#define ASUART_IRQ UART0_IRQ  // UART IRQ: UART0_IRQ or UART1_IRQ
 #define ASUART_TX  0          // GP0: GP number of UART TX pin
 #define ASUART_RX  1          // GP1: GP number of UART RX pin
 
