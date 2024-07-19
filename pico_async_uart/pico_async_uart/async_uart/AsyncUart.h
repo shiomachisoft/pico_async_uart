@@ -17,8 +17,8 @@
 // [UART Config]
 #define ASUART_ID  uart0      // UART ID: uart0 or uart1
 #define ASUART_IRQ UART0_IRQ  // UART IRQ: UART0_IRQ or UART1_IRQ
-#define ASUART_TX  0          // GP0: GP number of UART TX pin
-#define ASUART_RX  1          // GP1: GP number of UART RX pin
+#define ASUART_TX  0          // GP number of UART TX pin
+#define ASUART_RX  1          // GP number of UART RX pin
 
 #define ASUART_BAUD_RATE 9600             // baud rate
 #define ASUART_DATA_BITS 8                // data bits
