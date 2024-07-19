@@ -2,7 +2,9 @@ This is an asynchronous UART library for Raspberry Pi pico.
 (using C and pico-sdk)  
 
 This library performs asynchronous UART transmission and reception using queues and UART transmit/receive interrupts.  
-  
+
+When used in a multi-core environment, exclusive processing is performed within the library.  
+    
 **1.How to use**   
 Please set the following user-dependent settings in AsyncUart.h  
 ![image](https://github.com/user-attachments/assets/48bca4ba-e780-4b83-9496-5b0ec46ecd70)  
